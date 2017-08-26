@@ -33,7 +33,6 @@ header span {
 	background-color: black;
 	width: 20rem; 
 	margin-top: 9rem;
-	margin-left: 9rem;
 	padding: 2rem 3rem;
 }
 .banner h1 {
@@ -49,12 +48,14 @@ nav {
 	height: 2.5rem;
 	background-color: firebrick;
 	width: 100%;
-	display: flex;
-	align-items: center;
-	justify-content: space-evenly;
 }
 nav a {
 	padding: 0.75rem 0;
+}
+nav .container {
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
 }
 .main-nav {
 	display: inline-block;
@@ -102,7 +103,7 @@ p {
 }
 footer {
 	text-align: left;
-	padding: 5rem 0 5rem 5rem;
+	padding: 5rem 0;
 	background-color: black;
 	width: 100%;
 }
