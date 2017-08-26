@@ -9,14 +9,14 @@ body {
 }
 header {
 	background-color: black;
-	height: 2.32rem
-	width: 100%
+	height: 2.33rem;
+	width: 100%;
 }
 header img {
 	height: 1.5rem;
 	padding: 0 1rem 0 0.5rem;
 }
-header h4 {
+header span {
 	font-size: 1rem;
 	padding: 0.66rem 0;
 }
@@ -34,24 +34,24 @@ header h4 {
 	width: 20rem; 
 	margin-top: 9rem;
 	margin-left: 9rem;
+	padding: 2rem 3rem;
 }
-.banner h2 {
+.banner h1 {
 	font-size: 2rem;
 	font-weight: bold;
-	padding: 0.25rem 0 3rem 3rem;
+	padding: 0.25rem 0;
 }
 .banner h4 {
 	font-size: 1rem;
-    padding-top: 2rem;
-	padding-left: 2rem;
+	font-weight: bold;
 }
 nav {
 	height: 2.5rem;
 	background-color: firebrick;
-	width: 100%
+	width: 100%;
 	display: flex;
 	align-items: center;
-	justify-content: space-between;
+	justify-content: space-evenly;
 }
 nav a {
 	padding: 0.75rem 0;
@@ -70,7 +70,7 @@ nav a {
 .information {
 	margin-top: 3rem;
 	display: flex;
-	align-items: space-between;
+	justify-content: space-between;
 }
 .item {
 	width: 30%;
