@@ -5,7 +5,7 @@ body {
 	font-family: Helvetica, Sans-Serif;
 	width: 100%;
 	color: white;
-	line-height: 1.4
+	line-height: 1.4;
 }
 header {
 	background-color: black;
@@ -129,5 +129,41 @@ footer {
 	}
 	.glasses {
 		display: none;
+	}
+}
+@media only screen and (max-width: 540px) {
+	.main {
+		height: 15rem;
+	}
+	.banner {
+		margin-top: 10rem;
+		padding: 1rem 2rem;
+		width: 100%;
+	}
+	.banner h1 {
+	    font-size: 1rem;
+	    font-weight: bold;
+    }
+    .banner h4 {
+	    font-size: 0.77rem;
+	    font-weight: bold;
+    }
+	.item,
+    .location,
+    .hours	{
+		width: 90%;
+	}
+	.watch {
+		display: none;
+	}
+	.products,
+    .information	{
+		justify-content: space-around;
+		flex-wrap: wrap;
+	}
+	footer .container {
+		display: flex;
+		align-items: center;
+		justify-content: center;
 	}
 }
